@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "Make a tweet about web3 educational crypto tips and tricks or something new or some rant or some advice as a tweet with more detail, it should not be vague and should be unique; make it detailed with real steps people can do; at the end always say Join the Bad Traders Club today! @badtradersclub; and should be plain text, you can use emojis";
+    "Make a tweet about web3 educational crypto tips and tricks or something new or some rant or some advice as a tweet with more detail, it should not be vague and should be unique; it must include detailed steps; at the end always say Join the Bad Traders Club today! @badtradersclub; and should be plain text, you can use emojis";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
