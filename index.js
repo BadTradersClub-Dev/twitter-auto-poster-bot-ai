@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "Make a tweet about web3 educational crypto tips and tricks or something new or some rant or some advice as a tweet with more detail, it should not be vague and should be unique; it must include detailed steps; at the end always say Join the Bad Traders Club today! @badtradersclub; and should be plain text, you can use emojis, you should use crypto hash tags of #crypto, #cryptonews, #btc, #defi, #eth , #sol, #memecoin , #badtraders , #Cryptocurrency, #altcoin, #cryptotrading. The hash tags should be on their own line at the bottom.";
+    "Make an English language tweet about web3 educational crypto tips and tricks or something new or some rant or some advice as a tweet with more detail, it should not be vague and should be unique; it must include detailed steps; at the end always say Join the Bad Traders Club today! @badtradersclub; and should be plain text, you can use emojis, you should use crypto hash tags of #crypto, #cryptonews, #btc, #defi, #eth , #sol, #memecoin , #badtraders , #Cryptocurrency, #altcoin, #cryptotrading. The hash tags should be on their own line at the bottom.";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
